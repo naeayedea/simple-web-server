@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "simplewebserver.context-path",
+      "type": "java.lang.String",
+      "description": "The context path of the app i.e. <base-url>/<context-path>/**."
+    },
+    {
+      "name": "simple-web-server.resource-path",
+      "type": "java.lang.String",
+      "description": "The path where the server looks for resources."
+    },
+    {
+      "name": "simple-web-server.allowed-file-extensions",
+      "type": "java.lang.String",
+      "description": "A comma separated list of permitted file extensions served from the resource-path."
+    },
+    {
+      "name": "simple-web-server.apps",
+      "type": "java.util.Map",
+      "description": "List of supported apps and their configuration values i.e. context-path, resource-path, and allowed file extensions."
+    }
+  ] }
