@@ -2,13 +2,11 @@ package com.naeayedea.simplewebserver.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-@PropertySource("classpath:application.properties")
 @ConfigurationProperties(prefix="simple-web-server")
 public class AppProperties {
 
