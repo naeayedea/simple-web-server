@@ -5,7 +5,7 @@ system relative to where your app is deployed. It is also preconfigured to
 support SSL (Just add your trust/key stores as appropriate).
 
 Supports N static sites served from the configured location. Will update the served
-content as it is changed on the file system (you can set a cache if you like).
+content as it is changed on the file system (you can set a cache time if you like).
 
 # Configuration
 
@@ -16,11 +16,11 @@ that the server should return. For example, the following configuration adds two
 ```
 simple-web-server.apps.tracker-app.context-path=tracker-app
 simple-web-server.apps.tracker-app.resource-path=web-content/tracker-app
-simple-web-server.apps.tracker-app.allowed-file-extensions=*.html,*.css,ico,png,svg,js
+simple-web-server.apps.tracker-app.allowed-file-extensions=html,css,ico,png,svg,js
 
 simple-web-server.apps.another-app.context-path=another-app
 simple-web-server.apps.another-app.resource-path=web-content/another-app
-simple-web-server.apps.another-app.allowed-file-extensions=*.html,*.css,ico,png,svg,js
+simple-web-server.apps.another-app.allowed-file-extensions=html,css,ico,png,svg,js
 ```
 
 # Ciphering Passwords
